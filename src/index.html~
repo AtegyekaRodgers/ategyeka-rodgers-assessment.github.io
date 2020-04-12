@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title> Rodgers-Assessment </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="discription" content="BuildForSDG Cohort-1 Assessment. Nagaba phionah COVID-19 programming project assessment" />
+	<script type="text/javascript" src="front-end-index.js"></script>
+	<link rel="stylesheet" type="text/css" href="front-end-index.css">
+	</head>
+
+	<!-- 
+	data = {
+		region: {
+			name: "Africa",
+			avgAge: 19.7,
+			avgDailyIncomeInUSD: 5,
+			avgDailyIncomePopulation: 0.71
+		},
+		periodType: "days",
+		timeToElapse: 58,
+		reportedCases: 674,
+		population: 66622705,
+		totalHospitalBeds: 1380614
+	};  
+	 
+	--> 
+	
+<body>
+	<div>
+		<center>
+		<table width="80%" name="table1">
+			<tr> <th colspan="2"> Form </th></tr> 
+			<tr> <th>periodType </th> <td> <select type="text" name="data-period-type" id="data-period-type"> <option value="days">days</option><option value="weeks">weeks</option><option value="months">months</option> </select> </td> </tr>
+			<tr> <th>timeToElapse </th> <td> <input type="text" name="data-time-to-elapse" id="data-time-to-elapse"/> </td> </tr>
+			<tr> <th>reportedCases </th> <td> <input type="text" name="data-reported-cases" id="data-reported-cases"/> </td> </tr>
+			<tr> <th>population </th> <td> <input type="text" name="data-population" id="data-population"/> </td> </tr>
+			<tr> <th>totalHospitalBeds </th> <td> <input type="text" name="data-total-hospital-beds" id="data-total-hospital-beds"/> </td> </tr>
+			<tr> <th></th> <td> <button name="data-go-estimate" id="data-go-estimate"> Submit </button> </td> </tr>
+		</table>
+		</center>
+	</div>
+</body>
+</html>
